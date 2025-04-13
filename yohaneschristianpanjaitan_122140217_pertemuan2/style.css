@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+  input {
+    flex: 1;
+    padding: 0.5rem;
+  }
+  button {
+    padding: 0.5rem 1rem;
+  }
+  ul {
+    list-style: none;
+    color:black;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  li {
+    padding: 0.5rem;
+    background: #eee;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  li button {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+  }
+
+.bg {
+    background: linear-gradient(135deg, #605de5 0%, #b31320 100%);
+    min-height: 100vh;
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Headers */
+h1, h2 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Time display */
+#time {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Form elements */
+.input-group {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.btn-primary {
+    background: #4c1d95;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #5b21b6;
+    transform: translateY(-2px);
+}
+
+/* List items */
+.list-group-item {
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.5rem;
+    border-radius: 10px !important;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    transform: translateX(5px);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Icons */
+.bi {
+    margin-right: 8px;
+}
+
+  

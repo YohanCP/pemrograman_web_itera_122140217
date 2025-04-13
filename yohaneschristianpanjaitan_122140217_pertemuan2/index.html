@@ -1,0 +1,60 @@
+<!-- Yohanes Christian Panjaitan -->
+ <!-- 122140217 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>StudentEase Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg">
+    <div class="container py-4">
+        <h1 class="text-center mb-4"><i class="bi bi-mortarboard"></i> StudentEase Dashboard</h1>
+        <div id="time" class="text-center mb-4"></div>
+
+        <section class="mb-4"></section>
+            <h2 class="mb-3">
+                <i class="bi bi-calendar3"></i> Jadwal Kuliah</h2>
+            <form id="schedule-form" class="mb-3">
+                <div class="input-group">
+                    <input type="text" id="schedule-input" class="form-control" placeholder="Tambah jadwal..." required />
+                    <button type="submit" class="btn btn-primary">Tambah</button>
+                </div>
+            </form>
+            <ul id="schedule-list" class="list-group"></ul>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="mb-3"><i class="bi bi-check2-square"></i> Daftar Tugas</h2>
+            <form id="task-form" class="mb-3">
+                <div class="input-group">
+                    <input type="text" id="task-input" class="form-control" placeholder="Tambah tugas..." required />
+                    <button type="submit" class="btn btn-primary">Tambah</button>
+                </div>
+            </form>
+            <ul id="task-list" class="list-group"></ul>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="mb-3"><i class="bi bi-journal-text"></i> Catatan Cepat</h2>
+            <form id="note-form" class="mb-3">
+                <div class="input-group">
+                    <input type="text" id="note-input" class="form-control" placeholder="Tulis catatan..." required />
+                    <button type="submit" class="btn btn-primary">Simpan</button>
+                </div>
+            </form>
+            <ul id="note-list" class="list-group"></ul>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
